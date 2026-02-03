@@ -1,16 +1,52 @@
-# oromo_folktales
+# Oromo Folktales App  
+A simple, clean, and beginner‑friendly Flutter application that presents Oromo folktales through a structured multi‑screen navigation system.  
+Built as part of my learning journey in Flutter, navigation architecture, and cross‑platform development.
 
-A new Flutter project.
+---
 
-## Getting Started
+## 🚀 Overview
+The Oromo Folktales App is a lightweight Flutter project designed to demonstrate:
 
-This project is a starting point for a Flutter application.
+- Multi‑screen navigation using **go_router**
+- Clean folder structure and modular screen organization
+- Manual back‑button handling for desktop platforms (macOS)
+- Cross‑platform compatibility (macOS, Web, Android, iOS)
+- Beginner‑friendly, readable code suitable for teaching and portfolio use
 
-A few resources to get you started if this is your first Flutter project:
+This project was developed step‑by‑step with a focus on clarity, structure, and reproducibility.
 
-- [Lab: Write your first Flutter app](https://docs.flutter.dev/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://docs.flutter.dev/cookbook)
+---
 
-For help getting started with Flutter development, view the
-[online documentation](https://docs.flutter.dev/), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+## 📱 Features
+- **Home Screen** with navigation options  
+- **Category Screen** listing folktale categories  
+- **Story List Screen** showing stories per category  
+- **Story Details Screen** with descriptions  
+- **About Screen** describing Oromo folktales  
+- **Settings Screen** (placeholder for future features)  
+- Consistent back navigation across all platforms  
+- Clean UI using Flutter’s Material components  
+
+---
+
+## 🧱 Project Structure
+
+```text
+lib/
+├── app_router.dart
+├── main.dart
+└── screens/
+    ├── home/
+    │   └── home_screen.dart
+    ├── category/
+    │   └── category_screen.dart
+    ├── story_list/
+    │   └── story_list_screen.dart
+    ├── story_details/
+    │   └── story_details_screen.dart
+    ├── about/
+    │   └── about_screen.dart
+    └── settings/
+        └── settings_screen.dart
+```
+
